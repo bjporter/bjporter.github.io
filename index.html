@@ -7,9 +7,14 @@
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="shortcut icon" href="TemplateData/favicon.ico" />
     <script src="TemplateData/UnityProgress.js"></script>
+    <style>
+       @font-face { font-family: ThisNight; src: url('This Night.ttf'); } 
+       @font-face { font-family: ThisNight; font-weight: bold; src: url('This Night.ttf');}
+       #logo { font-family: ThisNight, sans-serif; }
+    </style>
   </head>
   <body class="template">
-    <p class="header"><span>Unity WebGL Player | </span>Autumn Prototype</p>
+    <p class="header"><span id="logo">Polynaut</span></p>
     <div class="template-wrap clear">
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
       <br>
