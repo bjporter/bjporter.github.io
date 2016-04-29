@@ -10,11 +10,12 @@
     <style>
        @font-face { font-family: ThisNight; src: url('This Night.ttf'); } 
        @font-face { font-family: ThisNight; font-weight: bold; src: url('This Night.ttf');}
-       #logo { font-family: ThisNight, sans-serif; }
+       #logo { width: 500px; position: relative; font-size: 100px; margin: 0 auto; font-family: ThisNight, sans-serif; }
     </style>
   </head>
   <body class="template">
-    <p class="header"><span id="logo">Polynaut</span></p>
+    <div style="margin: 50px auto; width: 100%;"><div id="logo">Polynaut</div></div>
+    <p class="header"></p>
     <div class="template-wrap clear">
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
     </div>
